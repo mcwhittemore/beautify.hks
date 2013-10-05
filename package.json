@@ -1,7 +1,7 @@
 {
   "name": "beautify.hks",
   "version": "0.0.0",
-  "description": "beautify your javascript with each commit",
+  "description": "Beautify your javascript with each commit",
   "main": "index.js",
   "keywords": [
     "hooks",
@@ -16,6 +16,13 @@
     "node-hooks": "0.0.9"
   },
   "dependencies": {
-    "colors": "~0.6.2"
+    "js-beautify": "1.4.0",
+    "colors": "0.6.2"
+  },
+  "hook-module": {
+    "script-type": "node",
+    "valid-for": [
+      "pre-commit"
+    ]
   }
 }

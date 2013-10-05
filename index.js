@@ -26,6 +26,7 @@ if (hook != "pre-commit") {
                 if (line != "") {
                     var filename = line.split("\t")[1];
                     var found = filename.match(/\.js$/g);
+                    //console.log(filename, found);
                     if (found) {
                         var ugly;
                         try {
@@ -75,6 +76,8 @@ if (hook != "pre-commit") {
                 }
 
                 adder(files_to_add.length - 1);
+            } else {
+                console.log("YOU WRITE BEAUTIFUL CODE!");
             }
         }
     });
