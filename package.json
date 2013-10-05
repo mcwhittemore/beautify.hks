@@ -14,5 +14,8 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "node-hooks": "0.0.9"
+  },
+  "dependencies": {
+    "colors": "~0.6.2"
   }
 }
