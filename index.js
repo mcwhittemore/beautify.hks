@@ -6,7 +6,7 @@ var fs = require("fs");
 var hook = process.argv[2];
 
 if (hook != "pre-commit") {
-    console.error("This is only going to work with commit-msg");
+    console.error("This is only going to work with pre-commit");
 } else {
     //TODO: it would be sweet if hooks had an api that gave me these... 
     exec("git diff --cached --name-status --diff-filter=AMR", function(err, stdout, stderr) {
