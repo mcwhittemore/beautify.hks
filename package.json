@@ -19,8 +19,12 @@
   "dependencies": {
     "js-beautify": "1.4.0",
     "colors": "0.6.2",
-    "hooks-config": "0.0.0",
-    "staged-git-files": "0.0.2"
+    "hooks-config": "0.0.1",
+    "staged-git-files": "0.0.2",
+    "read": "~1.0.5"
+  },
+  "scripts": {
+    "postinstall": "node config.js"
   },
   "hook-module": {
     "script-type": "node",
