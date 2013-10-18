@@ -25,3 +25,12 @@ Currently beautify.hks will use [the default beautify options](./beautify_defaul
 
 This is comming soon. [First `hooks` needs to add a config ability... wanna help?](https://github.com/mcwhittemore/node-hooks/issues/10)
 
+## Change Log
+
+## 0.0.2
+
+* Started using [staged-git-files](https://npmjs.org/package/staged-git-files) to get the staged git files.
+
+## 0.0.1
+
+* mvp

@@ -1,6 +1,6 @@
 {
   "name": "beautify.hks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Beautify your javascript with each commit",
   "main": "index.js",
   "keywords": [
