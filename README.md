@@ -27,10 +27,14 @@ This is comming soon. [First `hooks` needs to add a config ability... wanna help
 
 ## Change Log
 
-## 0.0.2
+### 0.0.3
+
+* Adding in config script for install
+
+### 0.0.2
 
 * Started using [staged-git-files](https://npmjs.org/package/staged-git-files) to get the staged git files.
 
-## 0.0.1
+### 0.0.1
 
 * mvp
