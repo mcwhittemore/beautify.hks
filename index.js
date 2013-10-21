@@ -12,7 +12,7 @@ if (hook != "pre-commit") {
     console.error("This is only going to work with pre-commit");
 } else {
     hksConfig.view(function(err, config) {
-        console.log(config);
+        //console.log(config);
         if (JSON.stringify(config) === "{}") {
             config = require("./beautify_defaults.json");
         }
