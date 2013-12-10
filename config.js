@@ -10,7 +10,7 @@ hksConfig.view(function(err, userConfig) {
 
     if (err) {
         console.log(err);
-    } else {
+    } else if(Object.keys(userConfig).length==0){
         var keys = Object.keys(baseConfig);
         var config = {};
 
