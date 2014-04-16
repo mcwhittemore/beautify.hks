@@ -40,6 +40,12 @@ if (hook != "pre-commit") {
                             console.log(err.message);
                             process.exit(1);
                         }
+                        
+                        //cannot beautify a JSX file
+                        if(ugly.indexOf("/** @jsx React.DOM */") == 0) {
+                            console.log(filename + ": SKIPPED (jsx)".yellow);
+                            continue;
+                        }
 
                         var beautiful = beautify(ugly, config);
                         if (ugly != beautiful) {
